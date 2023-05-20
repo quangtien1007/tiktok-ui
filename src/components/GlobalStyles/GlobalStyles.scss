@@ -2,15 +2,19 @@
 @import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
 @import url('https://fonts.cdnfonts.com/css/sofia-pro');
 
-:root{
+:root {
     --primary: #fe2c55;
+    --default-layout-height: 60px;
+    --default-layout-width: 1150px;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-*{
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
